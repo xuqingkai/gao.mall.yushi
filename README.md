@@ -12,3 +12,12 @@
 ### 账号密码
 admin   admin888
 
+### 数据库名
+jifenpdcom
+
+### 数据库名
+jifenpdcom
+
+### 数据库密码
+H43HiB8DeHWnbiWG
+
