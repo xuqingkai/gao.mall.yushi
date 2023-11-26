@@ -19,8 +19,8 @@
 		<div class="fkfs">
 			<ul>
 				<?php foreach($payment_list as $k=>$v):?>
-				<?php if($v['payment_type'] == 'cod' || $v['payment_type'] == 'balance')continue?>
-				<li class="js_radio"  id="order_payment_<?php echo $k ?>">
+				<?php if($v['payment_type'] == 'cod')continue?>
+				<li class="js_radio">
 					<label for="order_payment_<?php echo $k ?>">
 						<input type="radio" name="order_payment" value="<?php echo $k ?>" id="order_payment_<?php echo $k ?>" style="display:none" />
 						<img src="<?php echo $pe['host_root'] ?>public/plugin/payment/<?php echo $k ?>/logo.png" class="fl" />

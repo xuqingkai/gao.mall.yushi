@@ -50,7 +50,7 @@
 		</form>
 		<div class="el-form-item">
 			<label class="aqxy" style="font-size: 14px;">
-        <input id="yuedu" style="margin-right: 5px; vertical-align: middle;width: 14px;height: 14px;" type="checkbox" checked=""><span style="vertical-align: middle;cursor: pointer;">我已同意<a href="/index.php/article/22" style="color:#20a53a" target="_blank">《用户协议》</a></span></label>
+        <input id="yuedu" style="margin-right: 5px; vertical-align: middle;width: 14px;height: 14px;" type="checkbox" checked=""><span style="vertical-align: middle;cursor: pointer;">我已同意<a href="/index.php/article/22" style="color:#20a53a" target="_blank">《用户协议》</a><a href="/index.php/article/23" style="color:#20a53a" target="_blank">《隐私协议》</a></span></label>
 		</div>
 		<div class="login_other mat20" style="text-align:right">
 			已有注册账号？请直接 <a href="<?php echo $pe['host_root'] ?>user.php?mod=do&act=login&fromto=<?php echo urlencode($_g_fromto) ?>" title="登录"><span class="corg">登录</span></p>

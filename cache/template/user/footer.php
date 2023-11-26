@@ -25,6 +25,10 @@
 		Powered by <a href="http://www.qiye1000.com" target="_blank" title="系统">xiaoyao<?php echo $ini['xaoyao']['version'] ?></a>
 	</div>
 </div>
+
+
+
+
 <script type="text/javascript">
 $(function(){
 	//二维码显示

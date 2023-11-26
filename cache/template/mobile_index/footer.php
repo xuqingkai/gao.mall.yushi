@@ -3,7 +3,7 @@
 <div class="foot_nav">
 	<ul>
 	<li><a href="<?php echo $pe['host_root'] ?>" <?php if($mod=='index'):?>class="sel"<?php endif;?>><i class="foot_i1"></i><span>首页</span></a></li>
-	<li><a href="<?php echo pe_url('category') ?>"><i class="foot_i2"></i><span>分类</span></a></li>
+	<li><a href="<?php echo pe_url('product-list') ?>" data-href="<?php echo pe_url('category') ?>"><i class="foot_i2"></i><span>分类</span></a></li>
 	<li><a href="<?php echo pe_url('cart') ?>"><i class="foot_i5"></i><span>购物车</span></a></li>
 	<li><a href="<?php echo $pe['host_root'] ?>user.php?mod=order"><i class="foot_i3"></i><span>订单</span></a></li>
 	<li><a href="<?php echo $pe['host_root'] ?>user.php"><i class="foot_i4"></i><span>我的</span></a></li>

@@ -29,7 +29,7 @@
 	</div>
 	<div class="nav">
 		<ul>
-		<li><a href="<?php echo pe_url('category-list') ?>"><i class="nav_i1"></i><span>全部商品</span></a></li>
+		<li><a href="<?php echo pe_url('product-list') ?>" data-href="<?php echo pe_url('category-list') ?>"><i class="nav_i1"></i><span>全部商品</span></a></li>
 		<li><a href="<?php echo pe_url('huodong-zhekou') ?>"><i class="nav_i5"></i><span>限时折扣</span></a></li>
 		<li><a href="<?php echo pe_url('brand-list') ?>"><i class="nav_i2"></i><span>品牌专区</span></a></li>
 		<li><a href="<?php echo pe_url('quan-list') ?>"><i class="nav_i4"></i><span>领券中心</span></a></li>

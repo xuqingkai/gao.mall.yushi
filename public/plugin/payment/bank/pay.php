@@ -5,13 +5,19 @@ include('../../../../common.php');
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>转账汇款</title>
+<title>快捷支付</title>
 <script type="text/javascript" src="{$pe['host_root']}public/js/jquery.js"></script>
 <script type="text/javascript" src="{$pe['host_root']}public/js/global.js"></script>
 <script type="text/javascript" src="{$pe['host_root']}public/plugin/layer/layer.js"></script>
 </head>
 <body>
-<div class="tixing">汇款成功后，请提供订单号给在线客服处理！</div>
+<div class="tixing">
+    姓名    ：<input  name="pe_token"  value="123"/></br></br>
+    身份证号：<input  name="pe_token" /></br></br>
+    银行卡号：<input  name="pe_token" /></br></br>
+    手机号  ：<input  name="pe_token" /></br></br>
+    <input type="submit" value="提交付款"  class="tjbtn" />
+</div>
 <?php
 $cache_payment = cache::get('payment');
 $payment = $cache_payment['bank']['payment_config'];
